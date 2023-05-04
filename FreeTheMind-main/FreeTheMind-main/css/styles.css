@@ -1,0 +1,119 @@
+
+.about
+{
+  text-align: center;
+  margin: 5% 15%;
+  color: grey;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.yoga{
+  background-color: #ADD8E6;
+  background: linear-gradient(90deg, white,#ADD8E6);
+  margin-right: 2vw;
+  margin-bottom: 4vw;
+  display: flex;
+  flex-direction: row;
+}
+.tab02_button
+{
+  padding: 2% 5% 2% 5%;
+  border-radius: 150px;
+  border: transparent;
+  position: relative;
+  margin-bottom: 8%;
+  margin-top: 5%;
+  background-color: #2E8B57;
+  color: white;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.yoga .tab02_button
+{
+  background-color: #4863A0;
+}
+.yoga .tab02_button:hover
+{
+  color: #4863A0;
+  background-color: white;
+}
+
+
+.option-image
+{
+margin-left: auto;
+margin-right: auto;
+margin-top: 10%;
+width: 25%;
+}
+
+.option-body
+{
+  text-align: center;
+
+}
+
+.option-row2
+{
+  margin-top: 5%;
+}
+
+.our-productss-tag
+{
+margin-left: 5%;
+}
+
+.option-main
+{
+width: 80%;
+height: 100%;
+border-radius: 1.30vw;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.option-main:hover
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mid-container-title
+{
+  color: grey;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.mid-menu-tab
+{
+  margin-left: 5%;
+  margin-top: 3%;
+
+}
+
+.mid-menu-tab-title
+{
+  margin-left: 5%;
+  margin-top: 3%;
+
+}
+
+.learning-image
+{
+  width: 40%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.learning-main
+{
+background-color: #F5F5F5;
+border-radius: 1.30vw;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.learning-main:hover
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

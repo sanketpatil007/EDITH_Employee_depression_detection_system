@@ -1,0 +1,75 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 4;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: #eaebec;
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 2rem;
+}
+#button{
+  transition-duration: 0.2s;
+  height: 3vw;
+  width: 9vw;
+  font-size: 18px;
+}
+   
+.button:hover {
+  background-color: #c5bdbd; /* Green */
+  color: white;
+}
+.Sug{
+  display: none;
+  height:fit-content;
+  font-family:sans-serif;
+}
+.Sug h1{
+  font-size: 4vw;
+}
+.healthy{
+  display: none;
+}
+.healthy p{
+ color: rgb(0, 175, 23);
+ display: inline;
+}
+.slight{
+  display: none;
+}
+.slight p{
+ color: rgb(255, 208, 0);
+ display: inline;
+}
+.slight .atypical{
+color: black;
+font-weight: 200;
+}
+.medium{
+  display: none;
+}
+.medium p{
+ color: rgb(240, 98, 3);
+ display: inline;
+}
+.medium .med{
+  color: black;
+font-weight: 200;
+}
+.high{
+  display: none;
+}
+.high p{
+ color: rgb(255, 0, 0);
+ display: inline;
+}
+.high .situational{
+  color: black;
+font-weight: 200;
+}

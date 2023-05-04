@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="healthy">Congrats! You have a <p>Healthy Mind!</p></div>
+    <div class="slight">You have <p>Atypical depression</p><br><p class="atypical">Don't worry, a positive event can improve your mood!</p></div>
+    <div class="medium">You have <p>Medium depression</p><p class="med">Don't worry, meditate daily, stay positive and listen to the below podcast!</p></div>
+    <div class="high">You have <p>Situational Depression</p><p class="situational"><br>Don't worry, a positive event can improve your mood!</p></div>
+    <div class="Sug"><h1>Some Podcast suggestions</h1>1.<u>Umeed by Zakir Khan: </u><p>This podcast will definitely bring out the #umeed in your life. An absolutely peaceful and inspiring series by Zakir Khan. The creator Zakir Khan has beautifully spoken about the small, 
+        large yet unaddressed topics on life. Also features some of his closest friends and social media creators.</p>
+        <a href="https://www.youtube.com/watch?v=D3-0b96MZMg&list=PLUWkL7QvHrdXu7OU9VDOcDEwGg41xa4UL" target="_blank">Click here</a><br>
+        2.<u>The Doctor Happy Podcast: </u><p>The Dr. Happy Podcast is made to help you overcome your mental barriers. It's a weekly dose of happiness that will lift up your spirits, unlock your true potential, and help you become the best version of yourselves! Narrated by: Urmi Chanda, Clinical Psychologist.</p>
+
+        <a href="https://www.google.com/search?q=the+doctor+happy+podcast&oq=the+doctor+happy+po&aqs=chrome.4.69i57j33i22i29i30l9.10226j0j7&sourceid=chrome&ie=UTF-8" target="_blank">Click here</a> </div>
+    <form name="quiz" id="quiz">
+        <div>
+            <p>1. How was your day?</p>
+            <p><input type="radio" name="question1" value="Good"> Good</p>
+            <p><input type="radio" name="question1" value="Not bad"> Not bad</p>
+            <p><input type="radio" name="question1" value="Satisfactory"> Satisfactory</p>
+            <p><input type="radio" name="question1" value="Not good"> Not Good</p>
+        </div>
+        <div>
+            <p>2. Did you have a sound sleep?</p>
+            <p><input type="radio" name="question2" value="Best sleep"> I had the best sleep, slept like wood log!</p>
+            <p><input type="radio" name="question2" value="dream"> I had a dream</p>
+            <p><input type="radio" name="question2" value="Hard time"> I’m facing a hard time to get myself to sleep</p>
+            <p><input type="radio" name="question2" value="problem"> Felt like some thought or problem was troubling my sleep</p>
+        </div>
+        <div>
+            <p>3. How would you rate your productivity?</p>
+            <p><input type="radio" name="question3" value="Pretty good"> Pretty good - I’m able to do almost 80% of the things i plan to</p>
+            <p><input type="radio" name="question3" value="Awesome"> Awesome - I try to do everything i plan to</p>
+            <p><input type="radio" name="question3" value="Nice"> Nice, but I am getting better at it…. If things get left out I try to find ways to get them done and become more productive the next day!</p>
+            <p><input type="radio" name="question3" value="Okayish"> Okayish- but I really want to get the most out of myself!</p>
+        </div>
+        <div>
+            <p>4. How often do you feel positive about your life?</p>
+            <p><input type="radio" name="question4" value="Never"> Never</p>
+            <p><input type="radio" name="question4" value="Once in a while"> Once in a while</p>
+            <p><input type="radio" name="question4" value="Most of the time"> Most of the time</p>
+            <p><input type="radio" name="question4" value="Always"> Always</p>
+        </div>
+        <div>
+            <p>5. Have you experienced any changes (loss or trauma) recently?</p>
+            <p><input type="radio" name="question5" value="Yes1"> Yes</p>
+            <p><input type="radio" name="question5" value="No1"> No</p>
+        </div>
+        <div>
+            <p>6. Do you often find yourself lost in self critical thoughts, comparisons or hopelessness?</p>
+            <p><input type="radio" name="question6" value="Yes2"> Yes</p>
+            <p><input type="radio" name="question6" value="No2"> No</p>
+        </div>
+        <div>
+            <p>7. Would you say that the way others treat you affects the way you see yourself?</p>
+            <p><input type="radio" name="question7" value="Yes3"> Yes</p>
+            <p><input type="radio" name="question7" value="No3"> No</p>
+        </div>
+        <div>
+            <p>8. Do you have overwhelming emotions, such as fear or sadness, that make it difficult to function at times?</p>
+            <p><input type="radio" name="question8" value="Yes4"> Yes</p>
+            <p><input type="radio" name="question8" value="No4"> No</p>
+        </div>
+        <div>
+            <p>9. Do you feel confident about where you are in life and in the future?</p>
+            <p><input type="radio" name="question9" value="Yes5"> Yes</p>
+            <p><input type="radio" name="question9" value="No5"> No</p>
+        </div>
+        <div>
+            <p>10. Do you avoid social events because of overwhelming feelings or fear of how people see you?</p>
+            <p><input type="radio" name="question10" value="Yes6"> Yes</p>
+            <p><input type="radio" name="question10" value="No6"> No</p>
+        </div>
+        <div>
+            <p>11. If you are currently facing problems in your life, what are they related to?</p>
+            <p><input type="radio" name="question11" value="Relationship"> Relationship</p>
+            <p><input type="radio" name="question11" value="Financial"> Financial</p>
+            <p><input type="radio" name="question11" value="Work load"> Work load</p>
+            <p><input type="radio" name="question11" value="Loneliness"> Loneliness</p>
+        </div>
+        <input type="submit" name="" value="Done" id="button">
+    </form>
+    <p id="result"></p>
+    
+    <script src="js/questions.js"></script>
+
+</body>
+</html>
